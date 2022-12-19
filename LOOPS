@@ -1,0 +1,27 @@
+Cheat Sheet
+Loops
+So far we have seen that Python executes code in a sequence and each block of code is executed once.
+Loops allow us to execute a block of code several times.
+While Loop
+Allows us to execute a block of code several times as long as the condition is True.
+
+                     initialization
+              -->    while termination_condition:
+             |              block of code
+             | ---          Updation
+ 
+While Loop Example
+The following code snippet prints the next three consecutive numbers after a given number.  
+Code
+a = int(input())  
+counter = 0  
+while counter < 3:  
+    a = a + 1  
+    print(a)  
+    counter = counter + 1
+Input
+4
+Output
+5 
+6
+7
